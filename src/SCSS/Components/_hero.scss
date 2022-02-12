@@ -1,0 +1,90 @@
+.hero-section {
+    display: flex;
+    height: 100vh;
+    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+
+    ul {
+        list-style: none;
+        display: flex;
+        margin-left: 20%;
+        li:nth-child(2) {
+            margin-left: .3em;
+        }
+    }
+
+    .svg1 {
+        position: absolute;
+        z-index: 2;
+        width: 10%;
+        left: 60em;
+        top: 25em;
+        transform: rotate(-30deg);
+    }
+    .svg2 {
+        position: absolute;
+        z-index: 2;
+        width: 2%;
+        left: 50em;
+        top: 35em;
+    }
+    .svg3 {
+        position: absolute;
+        z-index: 2;
+        width: 5%;
+        left: 33em;
+        top: 20em;
+        transform: rotate(90deg);
+    }
+    .svg4 {
+        position: absolute;
+        z-index: 3;
+        width: 3%;
+        left: 60em;
+        top: 20em;
+        transform: rotate(90deg);
+    }
+    .svg5 {
+        position: absolute;
+        z-index: 3;
+        width: 4%;
+        left: 40em;
+        top: 30em;
+        transform: rotate(90deg);
+    }
+    .svg6 {
+        position: absolute;
+        z-index: 3;
+        width: 4%;
+        left: 40em;
+        top: 30em;
+        transform: rotate(90deg);
+    }
+    .svg7 {
+        position: absolute;
+        z-index: 3;
+        width: 2%;
+        left: 50em;
+        top: 37em;
+        transform: rotate(90deg);
+    }
+}
+
+.hero {
+    background-image: url("../../image/background.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+    width: 75%;
+    z-index: 0;
+    position: absolute;
+    left: 25%;
+}
+
+.hello {
+    z-index: 2;
+    position: relative;
+    top: 35%;
+    left: 35%;
+    font-size: 100px;
+    color: #ffffff;
+}

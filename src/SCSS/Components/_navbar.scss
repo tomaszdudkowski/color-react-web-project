@@ -1,0 +1,28 @@
+.navbar {
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    &__logo {
+        font-size: 2em;
+        font-weight: 500;
+        margin-left: 3em;
+        color: #FFF;
+    }
+
+    &__menu {
+        display: flex;
+        list-style: none;
+        margin-right: 10em;
+        margin-top: 3em;
+        li {
+            color: #FFF;
+            font-size: 1.8em;
+            font-weight: 500;
+            margin-left: 4em;
+            text-decoration: none;
+        }
+    }
+}
